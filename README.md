@@ -66,10 +66,10 @@ SubTrackr is a simple and powerful Flutter-based app to track your subscriptions
 
 ## ⚙️ Permissions Required
 
-READ_INSTALLED_APPS – To scan and list installed apps
-POST_NOTIFICATIONS – To send subscription renewal notifications (Android 13+)
-Internet permission (default for Flutter apps)
-The app asks for necessary permissions at runtime when needed.
+- READ_INSTALLED_APPS – To scan and list installed apps
+- POST_NOTIFICATIONS – To send subscription renewal notifications (Android 13+)
+- Internet permission (default for Flutter apps)
+- The app asks for necessary permissions at runtime when needed.
 
 ---
 
