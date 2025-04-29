@@ -64,6 +64,19 @@ SubTrackr is a simple and powerful Flutter-based app to track your subscriptions
    The release APK will be available at:  
    `build/app/outputs/flutter-apk/app-release.apk`
 
+## ⚙️ Permissions Required
+
+READ_INSTALLED_APPS – To scan and list installed apps
+POST_NOTIFICATIONS – To send subscription renewal notifications (Android 13+)
+Internet permission (default for Flutter apps)
+The app asks for necessary permissions at runtime when needed.
+
+---
+
+## 🛡 License
+
+This project is licensed under the MIT License — you are free to use, modify, and distribute it.
+
 ---
 
 ## 📦 Folder Structure
@@ -86,17 +99,4 @@ lib/
 │   └── notification_service.dart   # Notification handling
 │
 ├── main.dart                  # App entry point
-
-
-## ⚙️ Permissions Required
-    READ_INSTALLED_APPS – To scan and list installed apps
-
-    POST_NOTIFICATIONS – To send subscription renewal notifications (Android 13+)
-
-    Internet permission (default for Flutter apps)
-
-    The app asks for necessary permissions at runtime when needed.
-
-
-## 🛡 License
-This project is licensed under the MIT License — you are free to use, modify, and distribute it.
+```
