@@ -1,0 +1,3 @@
+# This file ensures no deferred components are configured
+# Deferred components require play:core which is deprecated and blocked by Play Console
+# Keep this file empty to disable deferred components

@@ -23,13 +23,14 @@ class SubscriptionAdapter extends TypeAdapter<Subscription> {
       frequency: fields[3] as String,
       startDate: fields[4] as DateTime,
       category: fields[5] as String,
+      reminderDays: (fields[6] as List).cast<int>(),
     );
   }
 
   @override
   void write(BinaryWriter writer, Subscription obj) {
     writer
-      ..writeByte(6)
+      ..writeByte(7)
       ..writeByte(0)
       ..write(obj.appName)
       ..writeByte(1)
@@ -41,7 +42,9 @@ class SubscriptionAdapter extends TypeAdapter<Subscription> {
       ..writeByte(4)
       ..write(obj.startDate)
       ..writeByte(5)
-      ..write(obj.category);
+      ..write(obj.category)
+      ..writeByte(6)
+      ..write(obj.reminderDays);
   }
 
   @override

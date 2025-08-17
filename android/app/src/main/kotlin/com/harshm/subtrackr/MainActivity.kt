@@ -1,4 +1,4 @@
-package com.example.sub_trackr
+package com.harshm.subtrackr
 
 import io.flutter.embedding.android.FlutterActivity
 

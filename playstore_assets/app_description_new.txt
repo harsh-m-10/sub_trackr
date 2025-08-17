@@ -1,0 +1,41 @@
+SubTrackr - Smart Subscription Manager
+
+Never lose track of your subscriptions again. SubTrackr helps you monitor your spending, get renewal reminders, and analyze your subscription costs with a clean, intuitive interface.
+
+KEY FEATURES:
+• Easy subscription management with flexible billing cycles
+• Smart app scanning to discover installed apps automatically
+• Beautiful charts and spending analytics
+• Custom date range analysis for better insights
+• Smart renewal reminders to avoid unexpected charges
+• Multiple currency support for international users
+• Dark and light theme options
+• Offline-first design: Your data stays on your device
+
+PERFECT FOR:
+• Budget-conscious individuals who want to track recurring expenses
+• Small business owners managing multiple service subscriptions
+• Anyone with multiple streaming, software, or service subscriptions
+• People who want to understand their monthly spending patterns
+
+PRIVACY FIRST:
+• All data stored locally on your device
+• No personal information collected or transmitted
+• No advertisements or tracking
+• Complete privacy control over your financial data
+
+UNDERSTAND YOUR SPENDING:
+• Monthly, weekly, and yearly spending overview
+• Category-based expense breakdown
+• Future spending predictions based on current subscriptions
+• Cost optimization insights to identify potential savings
+
+SMART FEATURES:
+• Automatic renewal date calculations
+• Custom reminder settings for different subscription types
+• Export and backup options for data portability
+• Cross-device data synchronization capabilities
+
+Take control of your subscription spending with SubTrackr. Whether you're managing streaming services, software licenses, or business subscriptions, our app provides the tools you need to stay organized and make informed financial decisions.
+
+Download SubTrackr today and start managing your subscriptions smarter, not harder.

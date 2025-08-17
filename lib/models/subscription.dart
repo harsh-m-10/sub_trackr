@@ -20,7 +20,13 @@ class Subscription extends HiveObject {
   DateTime startDate;
 
   @HiveField(5)
-  String category; // NEW FIELD!
+  String category;
+
+  @HiveField(6)
+  List<int> reminderDays; // Days before billing to send reminders
+
+  @HiveField(7)
+  String currency; // Original currency of the subscription
 
   Subscription({
     required this.appName,
@@ -29,5 +35,7 @@ class Subscription extends HiveObject {
     required this.frequency,
     required this.startDate,
     this.category = 'Other', // Default if user doesn't choose
+    this.reminderDays = const [1], // Default: 1 day before
+    this.currency = '\$', // Default to dollar
   });
 }

@@ -1,7 +1,6 @@
 name: sub_trackr
-description: "A new Flutter project."
-publish_to: 'none'
-version: 0.1.0
+description: "Track your subscriptions, analyze spending, and get renewal reminders. Simple, powerful, and privacy-focused."
+version: 1.0.0
 
 environment:
   sdk: ^3.7.2
@@ -20,6 +19,9 @@ dependencies:
   hive: ^2.2.3
   hive_flutter: ^1.1.0
   fl_chart: ^0.71.0
+  google_mobile_ads: ^4.0.0
+  share_plus: ^7.2.1
+  http: ^1.1.0
 
 dev_dependencies:
   flutter_test:
@@ -30,4 +32,8 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+
+# Disable deferred components to prevent FlutterPlayStoreSplitApplication
+flutter_components:
+  deferred: false
 
