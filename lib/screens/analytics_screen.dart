@@ -598,7 +598,7 @@ class _AnalyticsScreenState extends State<AnalyticsScreen> {
         }
 
         final data = snapshot.data!;
-
+        
         return Column(
           children: [
             // Chart title and CTA button
@@ -608,12 +608,12 @@ class _AnalyticsScreenState extends State<AnalyticsScreen> {
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   Expanded(
-                    child: Text(
-                      showCategoryBreakdown ? 'Spending by Category' : 'Spending by Frequency',
-                      style: TextStyle(
+              child: Text(
+                showCategoryBreakdown ? 'Spending by Category' : 'Spending by Frequency',
+                style: TextStyle(
                         fontSize: screenSize.width * 0.04,
-                        fontWeight: FontWeight.w600,
-                      ),
+                  fontWeight: FontWeight.w600,
+                ),
                     ),
                   ),
                   ElevatedButton.icon(
@@ -940,9 +940,9 @@ class _AnalyticsScreenState extends State<AnalyticsScreen> {
       runSpacing: 12,
       alignment: WrapAlignment.center,
       children: legendItems.map((entry) {
-        return Container(
+    return Container(
           padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
-          decoration: BoxDecoration(
+      decoration: BoxDecoration(
             color: _getColorForCategory(entry.key).withOpacity(0.1),
             borderRadius: BorderRadius.circular(8),
             border: Border.all(
@@ -971,8 +971,8 @@ class _AnalyticsScreenState extends State<AnalyticsScreen> {
               ),
             ],
           ),
-        );
-      }).toList(),
+          );
+        }).toList(),
     );
   }
 

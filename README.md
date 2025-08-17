@@ -47,7 +47,7 @@ SubTrackr is a privacy-focused, offline-first subscription management app that a
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/sub_trackr.git
+   git clone https://github.com/harsh-m-10/sub_trackr.git
    cd sub_trackr
    ```
 
