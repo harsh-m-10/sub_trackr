@@ -193,8 +193,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 For support, feature requests, or bug reports:
 - Create an issue on GitHub
-- Contact: support@harshm.dev
-- Privacy Policy: https://harshm.dev/subtrackr/privacy-policy
+- Contact: harsh.m.1004@gmail.com
+- Privacy Policy: https://harsh-m-10.github.io/sub_trackr/privacy_policy.html
 
 ## Acknowledgments
 
